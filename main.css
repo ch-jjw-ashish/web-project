@@ -1,0 +1,69 @@
+h2 {
+    background-color: #d7e9f7;
+    color: #007F7F;
+}
+
+ul {
+    list-style-type: none;
+    /* Remove default bullet points */
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: inline-block;
+    /* Display list items inline */
+    margin-right: 20px;
+    /* Space between items */
+}
+.job-search {
+    width: 300px;
+    margin: 50px auto;
+}
+.job-search #person {
+    transform-origin: center bottom;
+    animation: look 3s infinite;
+}
+@keyframes look {
+    0%, 20%, 60%, 100% {
+        transform: rotate(0deg);
+    }
+    40% {
+        transform: rotate(-10deg);
+    }
+    80% {
+        transform: rotate(10deg);
+    }
+}
+.blog-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.blog-entry {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.blog-entry h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    background-color: #f0f0f0;;
+}
+.blog-entry p {
+    margin-bottom: 5px;
+}
+.blog-entry a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+.blog-entry a:hover {
+    text-decoration: underline;
+}
+
+
